@@ -1,0 +1,59 @@
+
+Big O Notation (o notación asintótica).
+
+    Big O notation is a mathematical notation that describes the limiting behavior 
+    of a function when the argument tends towards a particular value or infinity. 
+
+
+Raw notes.
+    Crecimiento asintótico.
+        Conforme el input se acerca hacia el infinito.
+        El enfoque se centra en lo que pasa conforme el tamaño del problema se acerca al infinito.
+        Siempre hay que pensar en el peor de los casos (EJ en un algoritmo de busqueda, en el mejor de los
+        casos sería encontrarlo en la primera posición)
+        Nada más importa el término de mayor tamaño
+
+    Ley de la suma
+
+        def f(n):
+            for i in range(n):
+                print(i)
+
+            for i in range(n):
+                print(i)
+
+        # O(n) + O(n) = O(n + n) = O(2n) = O(n)  (Crecimiento lineal)
+
+
+    Ley de la multiplicación
+
+        def f(n):
+            for i in range(n):
+                for j in range(n):
+                    print(i,j)
+
+        # O(n) * O(n) = O(n * n) = O(n^2)  (Crecimiento cuadrático)
+    
+
+    Ley de la recursividad
+
+        def fibonacci(n):
+            if n== 0 or n == 1:
+                return 1
+            
+            return fibonacci(n - 1) + fibonacci(n - 2)
+        
+        # O(2**n)   (Crecimiento exponencial)
+    
+
+Clases de complejidad algorítmica
+
+    - O(1) => constante
+    - O(n) => lineal
+    - O(log n) => logarítmica
+    - O(n log n) => logarítmica lineal
+    - O(n**2) => polinominal
+    - O(2**n) => exponencial
+
+    Mientras más cerca del constante es mejor, los logarítmos que avanzan mucho en 
+    complejidad suelen no ser útiles.

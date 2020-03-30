@@ -1,0 +1,30 @@
+
+Introducción a la Optimización.
+
+    - El concepto de optimización permite resolver muchos problemas de manera computacional.
+    - Una función objetivo que debemos maximizar o minimizar.
+    - Una serie de limitantes que debemos respetar.
+
+Ejemplos prácticos.
+
+    - Si nosotros estamos pensando en optimizar vuelos, encontrar el vuelo más barato
+    entre ciertas fechas, nos enfrentamos en un problema de optimización. Los que resolvieron este
+    problema son 'Despegar.com'.
+
+    - Son problemas que si los logramos resolver en forma eficiente podemos crear empresas millonarias.
+
+    - Otro problema de optimización: El tráfico. Quienes resolvieron esto son 'Waze' y se vendió
+    a Google por millones de dolares.
+
+
+Traveling Salesman problem.
+
+    - Entre una serie de ciudades, hay que encontrar la ruta más eficiente para recorrer todas las ciudades.
+    NO SE PUEDE RESOLVER (Al menos, hasta hoy). Existe toda una rama del conocimiento que se encarga de 
+    ver si hay algoritmos que se pueden resolver mediante computadores o no.
+
+
+
+    
+
+

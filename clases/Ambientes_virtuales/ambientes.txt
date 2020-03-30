@@ -1,0 +1,29 @@
+
+Ambientes virtuales
+
+    - Permiten aislar el ambiente para poder instalar diversas versiones de paquetes
+    - A partir de python 3 se incluye en la librería estándar en el módulo venv
+    - Ningún ingeniero profesional de Python trabaja sin ellos
+
+PIP
+    
+    - Permite descarga paquetes de terceros para utilizar en nuestro programa.
+    - Permite compartir nuestros paquetes con terceros.
+    - Permite especificar la versión del paquete que necesitamos.
+
+
+Para ejecutarlo en la terminal:
+    
+    -> python3.7 -m venv env
+    -> source env/bin/activate
+
+Para instalar librerías:
+    -> pip install nombreLibreria
+
+Para saber lo que tenemos instalado en el ambiente:
+    -> pip freeze
+    
+Para salir del ambiente virtual:
+    -> deactivate
+
+    

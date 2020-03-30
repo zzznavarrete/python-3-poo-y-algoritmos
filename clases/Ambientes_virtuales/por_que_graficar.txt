@@ -1,0 +1,11 @@
+
+¿Por qué graficar?
+
+    - Reconocimientos de patrones: Nosotros como humanos entendemos mejor la data
+    visualizada que leyendo números de manera abstracta.
+
+    - Predicción de una serie al reconocer un patrón visualmente.
+
+    - Simplifica la interpretación y las conclusiones acerca de los datos.
+
+
